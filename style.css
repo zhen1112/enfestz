@@ -1,0 +1,119 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9c9fd98;
+  justify-content: center;
+  align-items: center; 
+  display: flex;
+}
+.kembali{
+  background-color: #8e118ef0;
+  padding: 20px;
+  margin: 0;
+  border-top-left-radius: 2rem;
+}
+.kembali a{
+  text-decoration: none;
+  color: #fff;
+}
+.kembali:hover{
+  background-color: #600d60;
+  padding: 20px;
+  border-top-left-radius: 2rem;
+}
+.container {
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  background-color: #fff5fb;
+  box-shadow: 0 0 10px rgba(206, 6, 163, 0.1);
+  padding: 40px;
+  width: 300px;
+  height: 650px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.container img {
+  max-width: 100%;
+  height: auto;
+  padding-top: 10px;
+  width: 100%; /* Ensure the image takes up 100% width of the container */
+}
+
+h2 {
+  color: #333;
+  padding-top: 5px;
+}
+
+form {
+  text-align: left;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #000000;
+}
+
+.details label {
+  margin-left: 25%;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #741b58f3;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+input:active {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #42022ef3;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+button {
+  background-color: #960f96;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 15%;
+  width: 200px;
+  align-items: justify;
+}
+
+button:hover {
+  background-color: #600d60;
+}
+
+.kon img{
+  width: 300px;
+  height: 730px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  border-top-right-radius: 4rem;
+  border-bottom-right-radius: 4rem;
+}
+@media screen and (max-width: 600px) {
+  .kon img{
+    display: none;
+  }
+  .kembali {
+    display: none;
+  }
+  button {
+    margin-left: 50px; /* Reset margin-left untuk tampilan mobile */
+  }
+}

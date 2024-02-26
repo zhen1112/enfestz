@@ -1,0 +1,54 @@
+body {
+    font-family: monospace;
+    background-color: #f3f3f3;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.intro {
+    text-align: center;
+    padding: 20px; /* Add padding for better visual appearance */
+}
+
+form {
+    margin: 0 auto;
+    max-width: 500px;
+    background-color: rgb(255, 251, 251);
+    padding: 20px; /* Add padding for better visual appearance */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.decor {
+    font-weight: bold;
+}
+
+.banner {
+    width: 100%; /* Set the width to 100% for responsiveness */
+    height: auto; /* Allow the height to adjust based on the width */
+    max-width: 500px; /* Set a maximum width for the banner */
+}
+
+.qrcod {
+    height: auto; /* Allow the height to adjust based on the content */
+    width: 100%; /* Set the width to 100% for responsiveness */
+    max-width: 100px; /* Set a maximum width for the QR code */
+    padding-bottom: 10px;
+}
+
+.container ol li {
+    text-align: justify;
+    padding-left: 0;
+    padding-right: 20px;
+    margin: 0;
+}
+
+/* Add a media query for responsiveness on smaller screens */
+@media screen and (max-width: 600px) {
+    form {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+    
+    .banner {
+        max-width: 100%; /* Set a maximum width for the banner on smaller screens */
+    }
+}

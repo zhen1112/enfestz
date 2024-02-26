@@ -1,0 +1,221 @@
+.atas {
+    background-color: rgb(134, 6, 254);
+    padding: 10px;
+    direction: rtl;
+}
+.atas a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px; /* Menggunakan margin-left untuk pengaturan jarak */
+}
+.top-nav{
+    display: flex;
+    height: 130px;
+    background-color: rgb(156, 0, 146);
+}
+.top-nav img{
+    width: 130px;
+    height: 130px;
+}
+.top-nav form{
+    margin-left: 5px;
+    display: flex
+}
+.top-nav input{
+    margin-top: 25px;
+    border: none;
+    width: 500px;
+    height: 30px;
+    background-color: rgb(179, 32, 144);
+    color: #ffffff;
+    font-style: bold;
+}
+.top-nav button{
+    width: 37px;
+    height: 31px;
+    margin-top: 25px;
+    border: none;
+}
+.top-nav a{
+    color: white;
+    margin-top: 50px;
+    text-decoration: none;
+}
+.top-nav .bar{
+    display: none;
+}
+.isi {
+    display: flex;
+}
+.isi img{
+    width: 30px;
+    height: 30px;
+    margin-top: 27px;
+    margin-left: 20px;
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+}
+.isi a{
+    margin-top: 32px;
+    margin-left: 5px;
+}
+.logreg {
+    display: flex;
+    padding: 90px;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 140px;
+  }
+  
+  .login, .daftar {
+    text-decoration: none;
+    padding: 10px 20px; /* Sesuaikan padding sesuai kebutuhan */
+    margin: 5px; /* Sesuaikan margin sesuai kebutuhan */
+    color: white;
+    cursor: pointer;
+    border-radius: 2rem;
+  }
+  
+  .login {
+    background-color: #920892;
+    border: 1px solid white; /* Warna background untuk tombol login */
+  }
+  
+  .daftar {
+    background-color: #910c9d;
+    border: 1px solid white; /* Warna background untuk tombol daftar */
+  }
+  .smartphone{
+    display: none;
+  }
+  .carousel {
+    position: relative;
+    width: 100%;
+    height: 300px; /* Sesuaikan dengan lebar maksimum yang diinginkan */
+    margin: auto;
+    overflow: hidden;
+    margin-top: 25px;
+    border-radius: 20px;
+    border-bottom: 20px;
+  }
+  
+  .slide {
+    display: none;
+    width: 100%;
+  }
+  
+  .carousel input[type="radio"] {
+    display: none;
+  }
+  
+  .carousel input[type="radio"]:checked + .slide {
+    display: block;
+  }
+  
+  .carousel img {
+    width: 100%;
+    height: auto;
+  }
+  .carousel-prev,
+  .carousel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 10px;
+    z-index: 1;
+    cursor: pointer;
+  }
+  .carousel-prev { left: 0; }
+  .carousel-next { right: 0; }
+  @media screen and (max-width: 600px) {
+    .atas{
+        display: none;
+    }
+    .top-nav{
+        height: 90px;
+    }
+    .top-nav .bar{
+         display: block !important;
+         margin-left: 20px;
+         margin-top: 30px;
+     }
+     .top-nav img{
+        width: 80px;
+        height: 80px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+     }
+     .top-nav input{
+       display: none;    
+     }
+     .logreg{
+        display: none;
+     }
+     .top-nav button{
+        margin-left: 190px;
+        border-radius: 2rem;
+        background-color: #920892;
+     }
+     .isi{
+        display: none;
+     }
+     .isi img{
+    width: 30px;
+    height: 30px;
+    margin-top: 70px;
+    margin-left: -100px;
+    }
+    .isi a{
+        display: none;
+    }
+    .smartphone {
+        display: none;
+        background-color: #f4f4f4;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .smartphone h1 {
+        color: #333;
+    }
+    
+    .smartphone p {
+        color: #666;
+    }
+    
+    .smartphone a {
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+        background-color: #007bff;
+        padding: 10px 20px;
+        margin-top: 10px;
+        border-radius: 5px;
+    }
+    
+    .smartphone a:hover {
+        background-color: #0056b3;
+    }
+    .carousel{
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .carousel-prev,
+  .carousel-next {
+    display: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 10px;
+    z-index: 1;
+    cursor: pointer;
+  }
+}
